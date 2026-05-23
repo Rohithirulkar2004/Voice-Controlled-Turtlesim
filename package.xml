@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>voice_turtlesim</name>
+  <version>0.0.1</version>
+  <description>Voice controlled turtlesim robot using ROS2</description>
+  <maintainer email="student@example.com">student</maintainer>
+  <license>Apache License 2.0</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <depend>rclpy</depend>
+  <depend>geometry_msgs</depend>
+  <depend>turtlesim</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
